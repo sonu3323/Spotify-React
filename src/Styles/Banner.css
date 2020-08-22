@@ -1,0 +1,22 @@
+.banner {
+  display: flex;
+  align-items: flex-end;
+  margin: 2rem 0;
+}
+.banner__left {
+  flex: 0;
+}
+
+.banner__img {
+  width: 16rem !important;
+  height: 16rem !important;
+}
+
+.banner__right {
+  margin: 0 3rem;
+  flex: 1;
+}
+
+.banner__right > h1 {
+  padding: 1rem 0;
+}

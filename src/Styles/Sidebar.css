@@ -1,0 +1,26 @@
+.sidebar {
+  flex: 0.2;
+  min-width: 230px;
+  background-color: #141b2b;
+  color: white;
+  padding: 0.7rem;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.sidebar__img {
+  height: 70px;
+  padding: 0.7rem;
+}
+
+.playlist {
+  margin-left: 1.5rem;
+}
+
+.hr {
+  margin: 1rem 1.2rem;
+  border: 1px solid #5a2020;
+  width: 100%;
+}

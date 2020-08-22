@@ -1,0 +1,30 @@
+.playicon {
+  font-size: 5rem !important;
+  margin-right: 1rem;
+  color: forestgreen;
+}
+
+.favourite {
+  font-size: 3rem !important;
+  margin-right: 1rem;
+  color: wheat;
+}
+
+.bodymusic__body {
+  padding: 0.2rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+  transition: background 0.2s ease-in-out;
+  border-radius: 10px;
+}
+
+.bodymusic__body:hover {
+  background: #111136;
+}
+
+.bodymusic__songname {
+  flex: 1;
+  margin: 0 1rem;
+}
